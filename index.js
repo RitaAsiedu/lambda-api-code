@@ -1,5 +1,4 @@
-const api_root= "https://5izg9vuyqf.execute-api.us-east-1.amazonaws.com/dev/"
-function loadTable(){
+const api_root="https://5g7hftvyf9.execute-api.us-east-1.amazonaws.com/dev/" 
     const xhttp = new XMLHttpRequest();
     xhttp.open("GET",api_root + "users");
     xhttp.send();
